@@ -1,0 +1,6 @@
+Flask
+flask-api
+flask_cors
+pyrebase4
+python-dotenv
+pytz

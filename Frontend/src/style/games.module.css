@@ -1,0 +1,42 @@
+.card {
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.card p {
+    margin: 5px 0;
+    overflow-wrap: anywhere;
+}
+
+.scores {
+    display: flex;
+    flex-direction: line;
+    justify-content: center;
+    align-items: center;
+}
+
+.scores h2 {
+    margin: 0;
+}
+
+.scores div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vs {
+    margin: 0 2vw;
+}
+
+.date {
+    text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+    .card {
+      width: 60%;
+      margin: 1rem auto;
+    }
+}

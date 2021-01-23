@@ -1,0 +1,110 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container h2 {
+    text-align: center;
+    margin: 0 0 7px 0;
+}
+
+.hContainer {
+    display: flex;
+    flex-direction: line;
+    justify-content: center;
+}
+
+.statsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.vs {
+    display: flex;
+    color: rgb(238, 13, 137);
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 5px;
+}
+
+select {
+    font-family: 'Work Sans', serif;
+    background-color: black;
+    color: rgb(238, 13, 137);
+    border-color: rgb(238, 13, 137);
+    width: 35vw;
+    font-size: 5vw;
+    padding: 5px;
+    margin: 7.5px;
+    border-radius: 10px;
+}
+
+.notesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+textarea {
+    font-size: 5vw;
+    height: 12.5vh;
+    width: 80vw;
+    background-color: black;
+    border-color: rgb(238, 13, 137);
+    color: rgb(238, 13, 137);
+    font-family: 'Work Sans', serif;
+    resize: none;
+    border-radius: 10px;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.text {
+    margin: 20px 0;
+    text-align: center;
+    color: rgb(238, 13, 137);
+    font-size: 6vw;
+}
+
+button {
+    height: 40px;
+    background-color: rgb(238, 13, 137);
+    color: black;
+    width: 80vw;
+    border-radius: 10px;
+    border: none;
+    font-size: 5vw;
+}
+
+button:disabled {
+    background-color: rgb(131, 40, 90);
+}
+
+@media screen and (min-width: 600px) {
+    select {
+      font-size: 2vw;
+      width: 28vw;
+    }
+
+    textarea, button {
+        font-size: 2vw;
+        width: 60vw;
+    }
+
+    button {
+        height: 50px;
+    }
+
+    h2 {
+        font-size: 3vw;
+    }
+
+    .text {
+        margin: 20px 0;
+        text-align: center;
+        color: rgb(238, 13, 137);
+        font-size: 2vw;
+    }
+}

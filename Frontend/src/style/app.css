@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Work+Sans:wght@400;600&display=swap');
+
+body {
+    color: white;
+    font-size: 6vw;
+    background-color: black;
+    font-family: 'Work Sans', serif;
+}
+
+h1 {
+    color: rgb(238, 13, 137);
+    font-family: 'Bungee Shade';
+    font-size: 13.5vw;
+    text-align: center;
+    margin: 5%;
+}
+
+h2 {
+    font-size: 7.5vw;
+    color: rgb(238, 13, 137);
+    font-weight: bold;
+}
+
+ul {
+    border-bottom: 1px solid rgb(238, 13, 137);
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+li {
+    color: rgb(238, 13, 137);
+    display: inline-block;
+    list-style: none;
+    margin-bottom: -1px;
+    padding: 0.5rem 0.75rem;
+    font-size: 4vw;
+}
+
+.active {
+    background-color: black;
+    border: solid rgb(238, 13, 137);
+    border-width: 1px 1px 0 1px;
+}
+
+footer {
+    color: rgb(238, 13, 137);
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    border-top: 1px solid rgb(238, 13, 137);
+    text-align: center;
+}
+
+footer p {
+    margin: 10px;
+}
+
+@media screen and (min-width: 600px) {
+    body {
+      font-size: 2vw;
+    }
+
+    h1 {
+        font-size: 7vw;
+        margin: 1%;
+    }
+
+    h2 {
+        font-size: 3vw;
+    }
+
+    li {
+        font-size: 2vw;
+    }
+}

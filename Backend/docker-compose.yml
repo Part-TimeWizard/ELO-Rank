@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+    rustrank-backend:
+        container_name: rustrank-backend
+        command: python runner.py run -h 0.0.0.0
+        env_file: ./.env
+        ports: 
+            - 4200:5000
+        volumes: 
+            - .:/usr/src/app
+        build:
+            context: .
+            dockerfile: Dockerfile

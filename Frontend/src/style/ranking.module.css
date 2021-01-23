@@ -1,0 +1,44 @@
+.card {
+    display: flex;
+    flex-direction: line;
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.card * {
+    margin: 0px;
+}
+
+.ranking {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ranking span {
+    display: none;
+  }
+  
+.ranking h1 {
+    margin: 0;
+    margin-left: 1.5vw;
+    font-size: 10vh;
+}
+
+.playerInfo {
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+    .card {
+      width: 60%;
+      margin: 1rem auto;
+    }
+
+    .ranking h1 {
+        margin-left: 2.5vw;
+        font-size: 12vh;
+      }
+}
