@@ -7,8 +7,8 @@ import axios from 'axios';
 // create the axios object used to interact with the API
 const api = axios.create({
     // this gets changed for production, but this works for local dev
-    baseURL: 'http://localhost:4200/api/'
-    //baseURL: 'http://127.0.0.1:4200/api/'
+    //baseURL: 'http://localhost:4200/api/'
+    baseURL: 'http://172.17.42.1:4200/api/'
 });
 
 export default api;
