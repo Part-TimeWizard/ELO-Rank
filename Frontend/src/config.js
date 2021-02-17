@@ -8,7 +8,7 @@ import axios from 'axios';
 const api = axios.create({
     // this gets changed for production, but this works for local dev
     //baseURL: 'http://localhost:4200/api/'
-    baseURL: 'http://34.94.159.12:4200/api/'
+    baseURL: 'https://34.94.159.12:4200/api/'
 });
 
 export default api;
