@@ -5,7 +5,7 @@ services:
         container_name: rustrank-frontend
         command: bash -c 'npm run start'
         ports: 
-            - 443:3000
+            - 80:3000
         volumes:
             - .:/app
             - /app/node_modules
