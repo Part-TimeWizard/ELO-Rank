@@ -1,6 +1,6 @@
 # Frontend ReadMe
 
-This is the Frontend for RustRank, which is coded in React.js.
+This is the Frontend for ELO Rank, which is coded in React.js.
 
 ## How to Run
 1. Launch Docker
