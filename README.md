@@ -1,4 +1,4 @@
-# RustRank ReadMe
+# ELO Rank ReadMe
 
 The primary goal of this project is to generate a ranking system for 2 vs 2 
 games. Players will input game results and their ratings will update accordingly
