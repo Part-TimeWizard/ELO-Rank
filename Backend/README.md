@@ -1,6 +1,6 @@
 # Backend ReadMe
 
-This is the Backend for RustRank, which is coded in Python and uyses a dockerized
+This is the Backend for ELO Rank, which is coded in Python and uyses a dockerized
 version of the FlaskAPI.
 
 ## How to Run
