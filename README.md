@@ -1,8 +1,11 @@
 # ELO Rank ReadMe
+Everyone thinks they’re the best at a certain game. Whether it’s ping-pong, Mario Kart, Joust,
+or even pickup basketball, everyone has their favorite casual game where they think they can
+beat all their friends. We set out to find a way to prove, with mathematical evidence, that we
+were better than them at certain games (and then cue the trash talk).
 
-The primary goal of this project is to generate a ranking system for 2 vs 2 
-games. Players will input game results and their ratings will update accordingly
-using and ELO rating system.
+[Documentation](./README.md#Documentation)
+
 
 ## Documentation
 - [Backend ReadMe](Backend/README.md "Backend ReadMe")
