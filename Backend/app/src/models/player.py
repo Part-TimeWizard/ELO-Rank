@@ -40,7 +40,7 @@ class Player:
 
         # Expected values (expected win probability of the winning team and the
         # losing team)
-        wE = (1.0/(1.0+10.0**((avg_loser - avg_winner)/500.0)))
+        wE = (1.0/(1.0+10.0**((avg_loser - avg_winner)/400.0)))
 
         # We modify the actual win value (normally a 1 for winning) to account
         # for score differential
